@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Limited Time Offer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background: #ffffff;
+  color: #333;
+  max-width: 420px;
+  width: 90%;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.offer {
+  color: #e63946;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.timer {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 15px 0;
+  color: #1d3557;
+}
+
+button {
+  background: #1d3557;
+  color: #fff;
+  border: none;
+  padding: 14px 30px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #457b9d;
+}
+
+.note {
+  font-size: 12px;
+  margin-top: 15px;
+  color: #666;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <h1>🔥 Limited Offer</h1>
+  <div class="offer">মাত্র ৩০ সেকেন্ডের জন্য!</div>
+
+  <p>
+    This exclusive affiliate offer is available for a very short time.  
+    নিচের সময় শেষ হওয়ার আগেই Sign Up করুন।
+  </p>
+
+  <div class="timer" id="countdown">30</div>
+
+  <button onclick="goLink()">Sign Up</button>
+
+  <div class="note">
+    No credit card required • 100% secure
+  </div>
+</div>
+
+<script>
+let time = 30;
+const countdown = document.getElementById("countdown");
+
+const timer = setInterval(() => {
+  time--;
+  countdown.textContent = time;
+
+  if (time <= 0) {
+    clearInterval(timer);
+    window.location.href = "https://tfqyduezbt.bid/cl/0df918c54fcec413";
+  }
+}, 1000);
+
+function goLink() {
+  window.location.href = "https://tfqyduezbt.bid/cl/0df918c54fcec413";
+}
+</script>
+
+</body>
+</html>
